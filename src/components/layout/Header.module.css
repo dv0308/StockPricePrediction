@@ -1,0 +1,43 @@
+
+.maincontentt{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    position:relative;
+    height: 55px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: black;
+    padding: 1rem 0;
+    font-family:Oswald;
+    font-weight: bolder;
+}
+
+.mypic{
+    width: 6rem;
+    height: 7rem;
+    margin-left: 2rem;
+    border-radius: 30%;
+}
+.portfolio{
+    padding: 2px;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    color: whitesmoke;
+    font-size: 3rem;
+}
+
+.buttoncontain{
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-align:center;
+        -ms-flex-align:center;
+            align-items:center;
+}
+
+.hiremebtn{
+    background-color: aqua;
+    width: 30rem;
+    color: aqua;
+}

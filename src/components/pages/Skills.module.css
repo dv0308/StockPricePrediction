@@ -1,0 +1,20 @@
+.box{   
+    height: 100%;
+    display: flex;
+}
+
+.outerbox{
+    width: max-content;
+    background-color: rgba(27, 26, 26, 0.934);
+    margin: auto;
+    margin-top: 3rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px 60px 3px rgb(37, 36, 35);
+}
+
+
+.wholebg{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}

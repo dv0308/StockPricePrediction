@@ -1,0 +1,18 @@
+
+.myicons{
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: auto;
+    margin: 1rem;
+    height: 4rem;
+    /* max-width: max-content; */
+    display:-webkit-box;
+    display:-ms-flexbox;
+    -webkit-transition: opacity 0.6s;
+    -o-transition: opacity 0.6s;
+    transition: opacity 0.6s;
+}
+
+.myicons:hover{
+    opacity: 50%;
+}

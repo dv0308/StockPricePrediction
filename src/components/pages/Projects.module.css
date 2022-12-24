@@ -1,0 +1,17 @@
+.project h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.3rem;
+    text-decoration: underline;
+    color: black;
+}
+.projectbox{
+    padding: 1rem;
+    width: fit-content;
+    margin: 3rem;
+}
+
+.project h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:1.7rem;
+    font-weight: 400;
+}

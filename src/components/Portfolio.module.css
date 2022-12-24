@@ -1,0 +1,98 @@
+.aboutme{
+    /* display: flex; */
+    position: fixed;
+    background-color: rgb(25, 24, 24);
+    height:50%;
+    width: 100%;
+}
+.bottom{
+  margin-top: 26.5%;
+  height: 100%;
+  width: 100%;
+  overflow: visible;
+  z-index: -1;
+  position: fixed;
+  background-image: url("../../public/images/mainbg.jpeg");
+}
+.bottom div{
+  display: block;
+  text-align: center;
+}
+.myimageclass{
+  margin-top: 25rem;
+}
+.info{
+    margin: 5rem;
+    font-size: 40px;
+    color: white;
+    display: inline-block;
+    font-family: Russo One;
+    white-space: nowrap;
+    overflow: hidden;
+    /* border-right: 0.1em solid orange; */
+    animation: typing 3s steps(100, end);
+    
+}
+
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 48rem }
+}
+
+/* @keyframes blink-caret {
+  from, to { border-color: transparent }
+  100% { border-color: orange; }
+} */
+/* @keyframes t{
+    from {background-size:0 200%}
+  }
+  @keyframes b{
+    50% {background-position:0 -100%,0 0}
+  } */
+
+
+.factbutton{
+  width: max-content;
+  height: max-content;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  margin-left: 4.5rem;
+  margin-top: 1rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+  transition: background-color 0.4s;
+}
+.factbutton:hover{
+  background-color: orange;
+  color: black;
+} 
+p{
+  width: fit-content;
+  font-family: Sail;
+  font-size: 35px;
+  font-weight: 500;
+  color: black;
+  margin-left: 4.5rem;
+  margin-top: 2rem;
+}
+h4{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+  font-weight: 800;
+  font-size: 25px;
+}
+.hackerimage{
+  width: auto;
+  padding: 0;
+  height: 29rem;
+  position: relative;
+  margin: auto;
+  float: right;
+}
+
+.D{
+    color:orange;
+    font-size: 50px;
+}
